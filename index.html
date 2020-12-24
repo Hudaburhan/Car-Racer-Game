@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
+    <script src="./p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+    <script>
+
+  var firebaseConfig = {
+    apiKey: "AIzaSyB8GjQ4hZe9YOwlWwgjwK1A6Q2OcBwuTZ0",
+    authDomain: "multiplayer-game-91bea.firebaseapp.com",
+    databaseURL: "https://multiplayer-game-91bea-default-rtdb.firebaseio.com",
+    projectId: "multiplayer-game-91bea",
+    storageBucket: "multiplayer-game-91bea.appspot.com",
+    messagingSenderId: "32414955420",
+    appId: "1:32414955420:web:005d3a518d865ad1703a59"
+  };
+
+  firebase.initializeApp(firebaseConfig);
+  </script>
+  <script src="js/Form.js"></script>
+  <script src="js/Game.js"></script>
+  <script src="js/Player.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+  </body>
+</html>
